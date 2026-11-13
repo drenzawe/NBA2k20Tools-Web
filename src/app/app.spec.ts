@@ -19,6 +19,6 @@ describe('App', () => {
     const fixture = TestBed.createComponent(App);
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, nba2k-landing-page');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, NBA2k20Tools-Web');
   });
 });

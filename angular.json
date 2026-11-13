@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "nba2k-landing-page": {
+    "NBA2k20Tools-Web": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "nba2k-landing-page:build:production"
+              "buildTarget": "NBA2k20Tools-Web:build:production"
             },
             "development": {
-              "buildTarget": "nba2k-landing-page:build:development"
+              "buildTarget": "NBA2k20Tools-Web:build:development"
             }
           },
           "defaultConfiguration": "development"
