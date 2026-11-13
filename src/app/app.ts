@@ -8,5 +8,7 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.html',
 })
 export class App {
-  protected readonly title = signal('nba2k-landing-page');
+  protected readonly title = signal('Drenz NBA2K Updater');
+  currentYear = new Date().getFullYear();
 }
+
